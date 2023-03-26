@@ -164,9 +164,8 @@ letter-spacing: 0.04em;
 text-transform: uppercase;
 color: #FFFFFF;
 background: var(--color-iris);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
 display: block;
+padding: 16px 32px;
 }
 
 .hero-btn:hover {
@@ -206,7 +205,7 @@ width: 264px;
 /*-------------------About-----------------------*/
 
 .about {
-
+padding-top: 0;
 }
 
 .about-list {
@@ -281,7 +280,6 @@ color: var(--color-slate);
 
 .filter-list {
     display: flex;
-    margin-top: 96px;
     margin-bottom: 72px;
     justify-content: center;
     gap: 24px;
